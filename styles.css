@@ -3,20 +3,28 @@
 body {
     display: flex;
     flex-direction: row;
+    background-image: url("images/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg");
+    background-size: cover;
+    background-color: black;
     height: 100vh;
     width: 100vw;
     padding: 0px;
     margin: 0px;
 }
-.sidebar {
+.navbar {
     display: flex;
-    flex-direction: column;
-    background-color: rgb(8, 206, 241);
-    width: 15%;
-    height: 100%;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100%;
+    height: 10%;
+}
+
+.siteLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 .content {
-    background-color: rgb(235, 235, 235);
     display: flex;
     width: 85%;
     height: 100%;
