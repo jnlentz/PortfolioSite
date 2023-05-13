@@ -6,6 +6,7 @@ body {
     background-image: url("images/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg");
     background-size: cover;
     background-color: black;
+    font-family: 'Roboto', serif;
     height: 100vh;
     width: 100vw;
     padding: 0px;
